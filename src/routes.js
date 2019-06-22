@@ -1,0 +1,7 @@
+const routes = require('express').Router()
+
+routes.get('/', (req, res) => {
+    return res.json({ title: 'Hello STELA'})
+})
+
+module.exports = routes

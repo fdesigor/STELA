@@ -6,10 +6,11 @@
   "author": "Igor Fernandes <fdesigor@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev" : "nodemon src/index.js",
-    "start" : "node src/index.js"
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
   },
   "dependencies": {
+    "dotenv": "^8.0.0",
     "express": "^4.17.1",
     "mongoose": "^5.6.0",
     "morgan": "^1.9.1",

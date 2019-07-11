@@ -24,7 +24,7 @@ module.exports = {
     },
     fileFilter: (req, file, callback) => {
         const allowedMimes = [
-            'video/*'
+            'video/mp4'
         ]
 
         if (allowedMimes.includes(file.mimetype)) {
